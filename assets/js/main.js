@@ -33,7 +33,6 @@ window.addEventListener("load", () => {
         vin: 'assets/img/vin.png',
         jennifer: 'assets/img/jennifer.png',
         emma: 'assets/img/emma.png',
-        // Add more IDs and image sources as needed
     };
 
 
@@ -85,9 +84,6 @@ window.addEventListener("load", () => {
         },
 
 
-
-
-
     }
 
     function updateGif(id){
@@ -119,7 +115,7 @@ window.addEventListener("load", () => {
 
             } else {
                 // Set a default image source if the ID is not found
-                celebImage.src = 'assets/img/default.jpg'; // Replace with your default image path
+                celebImage.src = 'assets/img/default.jpg';
             }
         });
     });
@@ -130,8 +126,7 @@ window.addEventListener("load", () => {
         happy:'assets/img/happy.gif',
         dance1:'assets/img/chip.gif',
         crab:'assets/img/crab.gif',
-        pixel:'assets/img/pixel.gif',    
-        // Add more IDs and image sources as needed
+        pixel:'assets/img/pixel.gif',   
     };
 
 
@@ -145,7 +140,7 @@ window.addEventListener("load", () => {
          
             } else {
                 // Set a default image source if the ID is not found
-                animationImage.src = 'assets/img/run.gif'; // Replace with your default image path
+                animationImage.src = 'assets/img/run.gif';
     
                 // Reset the size of the image to its default
                 animationImage.style.width = 'auto';
