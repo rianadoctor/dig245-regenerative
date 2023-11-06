@@ -1,2 +1,266 @@
 
 /* css */
+
+
+
+h1{
+    font-size: 100px; 
+    text-align: center;
+}
+
+
+h3{
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+.col {
+	float: left;
+	margin: 3px 8px;
+	width: 15%;
+    
+}
+
+.image-container {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+}
+
+.moving-image {
+    position: relative;
+    bottom: 80px;
+    right: 5px;
+    animation: moveImage 2s linear infinite; 
+    z-index: 99;
+}
+
+.stick-man-run{
+    position: relative;
+    top: 50px;
+}
+
+
+@keyframes moveImage {
+    0%, 100% {
+        left: 300px;
+        bottom: 80px;
+    }
+    50% {
+        left: 300px; /* Adjust the distance to move back and forth */
+        bottom: 77px;
+    }
+}
+
+
+.box {
+    position: relative;
+    bottom: 30px;
+
+
+    width: 800px; 
+    height: 620px; 
+    background-color: #ffffff; 
+    border: 4px solid #0000003b; 
+    border-radius: 5px; 
+    margin: 30px; 
+    padding: 10px; 
+    color: #ffffff; 
+}
+
+
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 30px 30px -15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+ul li{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+ul li:hover{
+    transform: scale(1.1)
+}
+
+#red{
+    background-color: rgb(255, 0, 0);
+}
+
+
+#yellow{
+    background-color: rgb(255, 234, 0);
+}
+
+#blue{
+    background-color: rgb(0, 89, 255);
+    
+}
+
+#orange{
+    background-color: orange;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#green{
+    background-color: green;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#brown{
+    background-color: brown;
+}
+
+#dimgray{
+    background-color: dimgray;
+}
+
+#lavender{
+    background-color: lavender;
+}
+
+#darkcyan{
+    background-color: darkcyan;
+}
+
+#magenta{
+    background-color: magenta;
+}
+
+p{
+    font-style: oblique;
+}
+
+
+#adam{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#tyler{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#rock{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#tom{
+    
+    background-color: rgba(0, 0, 0, 0.281);
+
+}
+
+#rami{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#chris{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#betram{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#austin{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#lebron{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#paul{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#drake{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#hudson{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#zendaya{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#ellen{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#beyounce{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#vin{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#jennifer{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#emma{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+
+#run{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#dance{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#happy{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#dance1{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#crab{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#pixel{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#animation-image {
+    /* Size */
+    width: 450px; 
+    height: auto; 
+}
