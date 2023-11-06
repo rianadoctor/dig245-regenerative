@@ -6,12 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Generative Design</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:rgb(255, 255, 255)">
 
     <!-- visible content goes here -->
 
     <!-- load javascript after the page elements render -->
     <script src="assets/js/main.js"></script>
+
+    <header>
+        <div class="container">
+            <div class="row align-items center">
+                <div class ="col-12">
+                    <h1 style="color:rgb(0, 0, 0)">
+                        CelebMorph Randomizer
+                    </h1>
+                    <h3 style="color:rgb(118, 115, 115)">
+                        Morph a random celebrity into a random stickman animation and select a your background color!
+                    </h3>
+
+                </div>
+            </div>
+
+        </div>
+        
+    </header>
+
+
+
+    <div class="cotainer">
+        <div class="row">
+            <div class="col">
+                <div class="col-12">
+                </div>
+            </div>
+            
+        </div>
+        <div class="row my-4">
+            <div class="col">
+                <div class="col-12">
+                    <div class="box" id="color-change-box">
+                        <img id="celeb-image" class="moving-image" src="assets/img/rock.png" alt="Moving Image" style="width: 150px;">
+                        <img id="animation-image" class="animation-gif" src="assets/img/pixel.gif" alt="GIF">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-12">
+                    <div class="card">
+                        <p>Pick a background color</p>
+                        <ul class="color-list">
+                            <li class="color-item" id="red"></li>
+                            <li class="color-item" id="yellow"></li>
+                            <li class="color-item" id="blue"></li>
+                            <li class="color-item" id="orange"></li>
+                            <li class="color-item" id="purple"></li>
+                            <li class="color-item" id="green"></li>
+                            <li class="color-item" id="pink"></li>
+                            <li class="color-item" id="brown"></li>
+                            <li class="color-item" id="dimgray"></li>
+                            <li class="color-item" id="lavender"></li>
+                            <li class="color-item" id="darkcyan"></li>
+                            <li class="color-item" id="magenta"></li>
+                        </ul>
+
+                    </div>    
+                    <div class="card">
+                        <p>Pick a random animation</p>
+                        <ul class="animation-list">
+                            <li class="ani-item" id="run" style="text-align: center;">?</li>
+                            <li class="ani-item" id="dance" style="text-align: center;"> ?</li>
+                            <li class="ani-item" id="happy" style="text-align: center;">?</li>
+                            <li class="ani-item" id="dance1" style="text-align: center;">?</li>
+                            <li class="ani-item" id="crab" style="text-align: center;">?</li>
+                            <li class="ani-item" id="pixel" style="text-align: center;">?</li>
+                        </ul>
+
+                    </div>   
+                    <div class="card">
+                        <p>Pick a Celeb</p>
+                        <ul class="celeb-list">
+                            <li class="celeb-item" id="adam" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="tyler" style="text-align: center;" >?</li>
+                            <li class="celeb-item" id="emma" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="rock" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="ellen" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="rami" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="chris" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="jennifer" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="betram" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="zendaya" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="lebron" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="paul" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="drake" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="hudson" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="austin" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="tom" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="beyounce" style="text-align: center;">?</li>
+                            <li class="celeb-item" id="vin" style="text-align: center;">?</li>
+                        </ul>
+
+                    </div>                       
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
